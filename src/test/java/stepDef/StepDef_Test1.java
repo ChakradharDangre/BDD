@@ -21,9 +21,9 @@ public class StepDef_Test1 {
 	@Given("user open the application")
 	public void user_open_the_application() {
 	   System.out.println("Launched the application......");
-	   HashMap<String, String>  textData =  DataHelper.readDataRowWise("src/test/resources/TestData/CRM.xlsx","Test1","CRM");
-	System.out.println(textData.isEmpty());
-	   System.out.println(textData.get("Title_Text"));
+//	   HashMap<String, String>  textData =  DataHelper.readDataRowWise("src/test/resources/TestData/CRM.xlsx","Test1","CRM");
+//	System.out.println(textData.isEmpty());
+//	   System.out.println(textData.get("Title_Text"));
 	}
 
 	@When("user validate the title")
