@@ -19,4 +19,3 @@ Feature: I want to validate
     Then use click on login button
     Then validate the login
     
- @SignUP
