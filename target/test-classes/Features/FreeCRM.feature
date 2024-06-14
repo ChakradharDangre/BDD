@@ -18,3 +18,5 @@ Feature: I want to validate
     Then user enter the password
     Then use click on login button
     Then validate the login
+    
+ @SignUP
